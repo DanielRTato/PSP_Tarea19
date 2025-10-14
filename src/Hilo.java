@@ -20,8 +20,7 @@ public class Hilo extends Thread {
     public void run() {
         for (char c : texto.toCharArray()) {
             if (vocal == c) contador.contarVocales();
-
         }
-        System.out.println(contador.getContadorVocales());
+
     }
 }
