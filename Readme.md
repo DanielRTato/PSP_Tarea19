@@ -1,2 +1,3 @@
-Crea un programa en Java que utilice 5 hilos que representan el número de vocales totales. Para contar el número de vocales que hay en un determinado texto (que puede ser introducido por teclado o estar en un fichero), cada hilo se encargará de contar una vocal diferente, actualizando todos los hilos una misma variable que indica el total de vocales del texto.
-Los hilos se deben ejecutar concurrentemente.
+# Tarea 19 PSP
+## Enunciado
+Crea un programa en Java que utilice 5 hilos que representan el número de vocales totales. Para contar el número de vocales que hay en un determinado texto (que puede ser introducido por teclado o estar en un fichero), cada hilo se encargará de contar una vocal diferente, actualizando todos los hilos una misma variable que indica el total de vocales del texto. Los hilos se deben ejecutar concurrentemente.

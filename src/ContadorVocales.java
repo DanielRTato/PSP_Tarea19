@@ -8,4 +8,8 @@ public class ContadorVocales {
     public int getContadorVocales() {
         return contadorVocales;
     }
+
+    public void setContadorVocales(int contadorVocales) {
+        this.contadorVocales = contadorVocales;
+    }
 }

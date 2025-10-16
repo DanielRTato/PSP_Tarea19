@@ -25,6 +25,7 @@ public class Hilo extends Thread {
 
             }
             this.texto = sb.toString().toLowerCase();
+
         } catch (IOException e) {
             System.out.println("Error en el br: " + e);
         }
@@ -34,6 +35,5 @@ public class Hilo extends Thread {
         for (char c : texto.toCharArray()) {
             if (vocal == c) contador.contarVocales();
         }
-
     }
 }
